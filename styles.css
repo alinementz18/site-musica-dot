@@ -1,0 +1,76 @@
+/* Estilos para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a0459b;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #f0f0f0  ;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+
+
+/* Estilos para o menu de navegação */
+nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+
+ul li {
+    margin-right: 12px;
+}
+
+ul li a{
+    color: #fff;
+
+}
+
+h1{
+    font-size:32px;
+}
+
+
+
+
+/* Estilos para a secção */
+section {
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #af4c96;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
